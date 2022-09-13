@@ -1,6 +1,10 @@
 {
-  "name": "vue-qrcode-reader",
+  "name": "@dargmuesli/vue-qrcode-reader",
   "version": "0.0.0-development",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "A set of Vue.js components for detecting and decoding QR codes.",
   "author": {
     "name": "Niklas Gruhn",
@@ -59,5 +63,5 @@
       "git add"
     ]
   },
-  "repository": "github:gruhn/vue-qrcode-reader"
+  "repository": "github:dargmuesli/vue-qrcode-reader"
 }
