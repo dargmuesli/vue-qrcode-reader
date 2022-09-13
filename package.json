@@ -10,14 +10,28 @@
     "name": "Niklas Gruhn",
     "email": "niklas@gruhn.me"
   },
+  "repository": "github:dargmuesli/vue-qrcode-reader",
+  "bugs": "https://github.com/gruhn/vue-qrcode-reader/issues",
+  "homepage": "https://gruhn.github.io/vue-qrcode-reader",
+  "main": "dist/VueQrcodeReader.common.js",
+  "unpkg": "dist/VueQrcodeReader.umd.min.js",
+  "keywords": [
+    "vue",
+    "vuejs",
+    "vue-component",
+    "qrcode",
+    "qrcode-reader",
+    "qrcode-scanner",
+    "webrtc"
+  ],
+  "license": "MIT",
+  "types": "./src/types/vue-qrcode-reader.d.ts",
   "scripts": {
     "build": "vue-cli-service build --target lib --name VueQrcodeReader src/index.js",
     "lint": "vue-cli-service lint",
     "build:docs": "vuepress build docs",
     "dev": "vuepress dev docs"
   },
-  "main": "dist/VueQrcodeReader.common.js",
-  "unpkg": "dist/VueQrcodeReader.umd.min.js",
   "dependencies": {
     "barcode-detector": "^1.0.0",
     "callforth": "^0.3.1",
@@ -42,26 +56,13 @@
     "semantic-release": "^17.1.1",
     "vuepress": "^1.5.2"
   },
-  "bugs": "https://github.com/gruhn/vue-qrcode-reader/issues",
   "gitHooks": {
     "pre-commit": "lint-staged"
   },
-  "homepage": "https://gruhn.github.io/vue-qrcode-reader",
-  "keywords": [
-    "vue",
-    "vuejs",
-    "vue-component",
-    "qrcode",
-    "qrcode-reader",
-    "qrcode-scanner",
-    "webrtc"
-  ],
-  "license": "MIT",
   "lint-staged": {
     "*.{js,jsx,vue}": [
       "vue-cli-service lint",
       "git add"
     ]
-  },
-  "repository": "github:dargmuesli/vue-qrcode-reader"
+  }
 }
