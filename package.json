@@ -1,6 +1,6 @@
 {
   "name": "@dargmuesli/vue-qrcode-reader",
-  "version": "0.0.0-development",
+  "version": "3.1.0-vue3-compatibility.12",
   "private": false,
   "publishConfig": {
     "access": "public"
